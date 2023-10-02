@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.822) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h4{
+    color: rgb(233, 172, 58);
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+}
+
+header nav a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.seccion-1{
+    background-image: url(images/pngtree-wooden-table-featuring-a-3d-rendered-pc-computer-mockup-with-blurred-image_3908506.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.seccion-1 .p1{
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+}
+
+.seccion-1 .p2{
+    font-size: 70px;
+    -webkit-text-stroke: 2px black;
+}
+
+.seccion-1 a{
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(233, 166, 78);
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seccion-2{
+  /*  background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.seccion-2 .subtitulos{
+    font-size: 35px;
+}
+
+.seccion-2 .servicios{
+    width: 100%;
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.seccion-2 .servicios .card{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion-2 .portfolio{
+    width: 100%;
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.seccion-2 .portfolio .card2{
+    width: 330px;
+    height: auto;
+    text-align:center;
+    border: 1px solid rgb(196, 193, 193);
+    padding-bottom: 20px;
+}
+
+.seccion-2 .portfolio .card2 img {
+    width: 100%;
+    height: 220px;
+}
+
+.seccion-2 .team{
+    width: 100%;
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.seccion-2 .team .card3{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion-2 .team .card3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 170px;
+}
+
+footer .pie{
+    width: 100%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

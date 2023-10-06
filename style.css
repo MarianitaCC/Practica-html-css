@@ -1,6 +1,10 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: content-box; 
 }
+
+/*Encabezado*/
 
 header{
     width: 100%;
@@ -25,6 +29,14 @@ header nav a{
     color: blanchedalmond;
     text-decoration: none;
 }
+
+header .nav-movile{
+    display: none;
+}
+
+/*Fin de Encabezado*/
+
+/*Sección 1-Bienvenida*/
 
 .seccion-1{
     background-image: url(images/pngtree-wooden-table-featuring-a-3d-rendered-pc-computer-mockup-with-blurred-image_3908506.jpg);
@@ -55,13 +67,17 @@ header nav a{
     font-size: 15px;
     text-decoration: none;
     background-color: rgb(233, 166, 78);
+    border: 2px solid rgb(219, 141, 39);
     color:white;
     border-radius: 5px;
     padding: 10px;
 }
 
+/* Fin de la Sección 1-Bienvenida*/
+
+/* Sección 2-Servicios*/
+
 .seccion-2{
-  /*  background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,11 +160,38 @@ footer .pie{
 }
 
 
+@media (width < 640px){
+    .seccion-1 .p2{
+        text-align: center;
+        font-size: auto;   
+    }
+}
 
+@media (width < 420px){
+    .seccion-1 .p1{
+        text-align: center;
+        font-size: auto;   
+    }
 
+}
 
+@media (width < 500px){
+    header nav{
+        display: none;
+    }
 
+    header .nav-movile{
+        display: flex;
+        gap: 10px;
+    }
 
+    header .nav-movile a img{
+        width: 10px;
+        background-color: white;
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+}
 
 
 

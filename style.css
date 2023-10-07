@@ -1,7 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: content-box; 
 }
 
 /*Encabezado*/
@@ -18,6 +16,7 @@ header{
 
 header h4{
     color: rgb(233, 172, 58);
+    font-size: 15px;
 }
 
 header nav{
@@ -175,7 +174,7 @@ footer .pie{
 
 }
 
-@media (width < 500px){
+@media (width < 550px){
     header nav{
         display: none;
     }
@@ -186,7 +185,7 @@ footer .pie{
     }
 
     header .nav-movile a img{
-        width: 10px;
+        width: 18px;
         background-color: white;
         border: 5px solid white;
         border-radius: 10px;

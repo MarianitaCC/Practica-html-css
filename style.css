@@ -192,6 +192,20 @@ footer .pie{
     }
 }
 
+@media (550px < width < 1000px){
+    header h4{
+        font-size: 23px;
+    }
+    
+    header .nav-pc{
+        font-size: 23px;
+    }
+
+    .seccion-1  {
+        width: 100%;
+        height: 50vh;
+        }
+}
 
 
 
